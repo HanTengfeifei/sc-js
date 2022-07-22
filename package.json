@@ -1,0 +1,60 @@
+{
+  "name": "react-file-chunk",
+  "version": "1.0.0",
+  "description": "this is a file-chunk react conponent ",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rm -fr dist && rollup -c rollup.config.js -w",
+    "build": "rm -fr dist && rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanTengfeifei/react-file-chunk.git"
+  },
+  "keywords": [
+    "file",
+    "chunk",
+    "react"
+  ],
+  "author": "tfhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HanTengfeifei/react-file-chunk/issues"
+  },
+  "homepage": "https://github.com/HanTengfeifei/react-file-chunk#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-image": "^2.1.1",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/parser": "^5.13.0",
+    "classnames": "^2.3.1",
+    "eslint": "^7.11.0",
+    "husky": "3.0.9",
+    "lint-staged": "^12.3.4",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.68.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-svg": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "4.5.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
