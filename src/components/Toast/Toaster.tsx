@@ -3,7 +3,7 @@ import cx from 'classnames';
 
 import type { ToasterProps, SvgFormat } from './type';
 
-import ss from './style.scss';
+import ss from './style.module.less';
 
 const Toaster: React.FC<ToasterProps> = ({ style, className, message, type }) => {
   const svgFormat: SvgFormat = {

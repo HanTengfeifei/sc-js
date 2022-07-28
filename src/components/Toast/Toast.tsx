@@ -4,7 +4,7 @@ import type { Message, ToastType, ToastOptions, ToastHandler } from './type';
 
 import Toaster from './Toaster';
 
-import ss from './style.less';
+import ss from './style.module.less';
 
 
 const createHandler =
